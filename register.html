@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" type="text/Css" href="regis.css" />
+</head>
+<body>
+    <div class="divv">
+    <h1>Registration form</h1>
+    
+    <form>
+        <label class="first">First name : </label>
+        <input type="text" name="name" placeholder="Enter the first name" required>
+        <br><br>
+        <label class="second">Second name : </label>
+        <input type="text" name="name" placeholder="Enter the second name" required>
+        <br><br>
+        <label class="gen">Gender : </label>
+        <input  type="radio" name="gender" value="Male" required/>Male
+        <input  type="radio" name="gender" value="Female" required/>Female
+        <input  type="radio" name="gender" value="other" required/>Other
+        <br><br>
+        <label>Email : </label>
+        <input  type="email" name="email" placeholder="Enter the email" required/>
+        <br><br>
+        <label>Password : </label>
+        <input type="password" name="password" placeholder="Enter the password" minlength="5" maxlength="10" required/>
+        <br><br>
+        <label>Re-Password : </label>
+        <input type="password" name="re-password" placeholder="Enter the password" minlength="5" maxlength="10" required/>
+        <br><br>
+        <input type="submit" value="Login"/>
+
+    </form>
+</div>
+</body>
+</html>

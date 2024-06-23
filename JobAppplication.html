@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job Application</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body >
+    <div class="cantainer">
+        <div class="apple">
+            
+            <form>
+                <h1>
+                    Job Application
+                    <span class="tittle_small">(web)</span>
+                </h1>
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="first_name">First name</label>
+                        <input
+                        type="text"
+                        id="first_name"
+                        name="first_name"
+                        placeholder="Enter the first name"
+                        required/>
+                    </div>
+                    <div class="form_control">
+                        <label for="last_name">Last name</label>
+                        <input
+                        type="text"
+                        id="last_name"
+                        name="last_name"
+                        placeholder="Enter the last name"
+                        required/>
+                    </div>
+                    <div class="form_control">
+                        <label for="email">Email</label>
+                        <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter email"
+                        required/>
+                    </div>
+                    <div class="form_control">
+                        <label for="job_role">Job Role</label>
+                        <select id="jo_role" name="job_role" required>
+                            <option value=""> select job role</option>
+                            <option value="react">React</option>
+                            <option value="node">Node j.s</option>
+                            <option value="full stact">Full stact</option>
+                        </select>
+                    </div>
+                    <div class="textarea_control">
+                        <label for="address"> Address</label>
+                        <textarea
+                        id="address"
+                        name="address"
+                        row="4"
+                        cols="50"
+                        placeholder="Enter the address"
+                        required></textarea>
+
+                    </div>
+                    <div class="form_control">
+                        <label for="city"> City</label>
+                        <input
+                        type="text"
+                        id="city"
+                        name="city"
+                        placeholder="Enter the city"
+                        required>
+                    </div>
+                    <div class="form_control">
+                        <label for="pincode">Pincode</label>
+                        <input
+                        type="number"
+                        id="pincode"
+                        name="pincode"
+                        placeholder="Enter the pincode"
+                        required>
+                    </div>
+                    <div class="form_control">
+                        <label for="date">D.O.B</label>
+                        <input
+                        value="1999-05-24" type="date" id="date" name="date">
+                    </div>
+                    <div class="form_control">
+                        <label for="upload">Upload your CV</label>
+                        <input 
+                        type="file"
+                        id="upload"
+                        name="upload"
+                        required>
+                    </div>
+                    <div class="button_container">
+                        <button type="submit">Apply Now</button>
+                    </div>
+
+                    
+
+                    
+
+
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
